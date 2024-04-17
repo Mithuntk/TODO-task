@@ -1,0 +1,21 @@
+body{
+    background-image: url("../../Assets/Background.png");
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.logo{padding: 50px;
+
+}
+
+.title_1{
+    padding-right: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+.sign{
+    background-color: rgb(193, 193, 238);
+}

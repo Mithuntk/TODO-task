@@ -1,0 +1,63 @@
+/* App.css */
+
+.register {
+    width: 500px;
+    width: 350px;
+    margin-top: 12%;
+    margin-left: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    background-color: #7acabe;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: fit-content;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+
+  
+  .register h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register form {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .register label {
+    margin-bottom: 5px;
+   
+  }
+  
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #654a4a;
+    border-radius: 3px;
+
+  }
+  
+  .register button[type="submit"] {
+    padding: 10px;
+  margin-left: 43px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 73%;
+   
+  }
+  
+  .register button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
