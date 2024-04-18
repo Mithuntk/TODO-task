@@ -7,11 +7,9 @@ import Profile from "./Components/Profile/Profile";
 
 function App() {
   return (
-    <div>
+    <div className="col-10 col-sm-8 col-lg-6">
       <Router>
         <Routes>
-          {" "}
-          {/* Use Routes component to wrap your Route elements */}
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

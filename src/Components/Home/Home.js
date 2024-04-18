@@ -5,26 +5,28 @@ import logo from "../../Assets/Logo.png";
 import background from "../../Assets/Background.png";
 function Home() {
   return (
-    <div class="container">
-      <div class="left-content">
-        <div class="logo">
-          <img src={logo} alt="logo" width="40" height="50" />
-        </div>
-        <div class="title_1">
-          <h2>Welcome to Our Platform!</h2>
-          <Link to="/signup">
-            <button className="sign">Sign up</button>
-          </Link>
-          <p className="question">
-            Do you already have an account?{" "}
-            <Link to="/login">
-              <button className="sign">Log in</button>
+    <div className="col-10 col-sm-8 col-lg-6">
+      <div class="container">
+        <div class="left-content">
+          <div class="logo">
+            <img src={logo} alt="logo" width="40" height="50" />
+          </div>
+          <div class="title_1">
+            <h2>Welcome to Our Platform!</h2>
+            <Link to="/signup">
+              <button className="sign">Sign up</button>
             </Link>
-          </p>
+            <p className="question">
+              Do you already have an account?{" "}
+              <Link to="/login">
+                <button className="sign">Log in</button>
+              </Link>
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="right-content">
-        <img src={background} alt="background" />
+        <div class="right-content">
+          <img src={background} alt="background" />
+        </div>
       </div>
     </div>
   );
